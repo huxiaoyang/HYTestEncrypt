@@ -18,6 +18,8 @@
 
 #import "GTMBase64.h"
 #import "GTMDefines.h"
+#import <CommonCrypto/CommonDigest.h>
+
 
 static const char *kBase64EncodeChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 static const char *kWebSafeBase64EncodeChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
